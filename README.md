@@ -10,9 +10,9 @@ Cross-platform `Macos | Windows | Linux | iOS | Android | Web` AI Chat Client
 
 ## Install
 
-| macOS                                                   | Windows                                                 | Linux                                                     | iOS                                                      | Android                                                 | Web                                                    |
-|---------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------|
-| [Release](https://github.com/daodao97/chatmcp/releases) | [Release](https://github.com/daodao97/chatmcp/releases) | [Release](https://github.com/daodao97/chatmcp/releases) ¹ | [TestFlight](https://testflight.apple.com/join/dCXksFJV) | [Release](https://github.com/daodao97/chatmcp/releases) | [GitHub Pages](https://daodao97.github.io/chatmcp) ² |
+| macOS                                                   | Windows                                                 | Linux                                                     | Android                                                 | Web                                                    |
+|---------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
+| [Release](https://github.com/Tencon99/doudouai/releases) | [Release](https://github.com/Tencon99/doudouai/releases) | [Release](https://github.com/Tencon99/doudouai/releases) ¹ | [Release](https://github.com/Tencon99/doudouai/releases) | [GitHub Pages](https://Tencon99.github.io/doudouai) ² |
 
 ¹ **Linux Notes:** 
 - Install required dependencies: `sudo apt install libsqlite3-0 libsqlite3-dev` on Debian/Ubuntu and derivatives
@@ -23,8 +23,8 @@ Cross-platform `Macos | Windows | Linux | iOS | Android | Web` AI Chat Client
 
 ## Documentation
 
-Also, you can use DeepWiki to get more information about chatmcp.  
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daodao97/chatmcp) DeepWiki is an AI-powered platform that transforms any
+Also, you can use DeepWiki to get more information about doudouai.  
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Tencon99/doudouai) DeepWiki is an AI-powered platform that transforms any
 public GitHub repository into a fully interactive, easy-to-understand wiki. By analysing code, documentation, and configuration files, it creates
 clear explanations, interactive diagrams, and even allows for real-time Q&A with the AI.
 
@@ -86,7 +86,7 @@ sudo apt install nodejs npm
 
 ## Data Storage
 
-ChatMCP follows platform-specific best practices for data storage:
+doudouAI follows platform-specific best practices for data storage:
 
 ### Storage Locations
 
@@ -113,7 +113,7 @@ ChatMCP follows platform-specific best practices for data storage:
 
 All platforms store data in a unified directory structure:
 - `logs` folder - Application logs
-- `chatmcp.db` - Main database file containing chat history and messages
+- `doudouai.db` - Main database file containing chat history and messages
 - `shared_preferences.json` - Application settings and preferences
 - `mcp_server.json` - MCP server configurations
 
@@ -141,7 +141,7 @@ rm -rf ~/.local/share/run.tencon.doudouai
 
 ### Install Flutter
 
-To develop or run ChatMCP, you need to have [Flutter](https://flutter.dev/) installed.  
+To develop or run doudouAI, you need to have [Flutter](https://flutter.dev/) installed.  
 Follow the official [Flutter installation guide](https://docs.flutter.dev/get-started/install) for your platform.
 
 - [Download Flutter](https://docs.flutter.dev/get-started/install)
@@ -155,8 +155,8 @@ flutter --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/daodao97/chatmcp.git
-cd chatmcp
+git clone https://github.com/Tencon99/doudouai.git
+cd doudouai
 
 # Install dependencies
 flutter pub get
@@ -192,13 +192,13 @@ flutter run -d web-server
 flutter build web
 
 # Build with base path (for deploying to subdirectory)
-flutter build web --base-href /chatmcp/
+flutter build web --base-href /doudouai/
 ```
 
 #### Deploy to GitHub Pages
 ```bash
 # 1. Build Web version
-flutter build web --base-href /chatmcp/
+flutter build web --base-href /doudouai/
 
 # 2. Push build/web directory contents to gh-pages branch
 # Or use GitHub Actions for automatic deployment
@@ -222,7 +222,7 @@ After building, files will be in the `build/web` directory and can be deployed t
 - [ ] Better UI Design
 - [x] Dark/Light Theme
 
-All features are welcome to submit, you can submit your ideas or bugs in [Issues](https://github.com/daodao97/chatmcp/issues)
+All features are welcome to submit, you can submit your ideas or bugs in [Issues](https://github.com/Tencon99/doudouai/issues)
 
 ## MCP Server Market
 
@@ -249,7 +249,7 @@ Create a fork of [mcp_server_market](https://github.com/chatmcpclient/mcp_server
 ```
 You can send a Pull Request to the [mcp_server_market](https://github.com/chatmcpclient/mcp_server_market) repository to add your MCP Server to the Market. After your PR is merged, your MCP Server will be available in the Market and other users can use it immediately.
 
-Your feedback helps us improve chatmcp and helps other users make informed decisions.
+Your feedback helps us improve doudouai and helps other users make informed decisions.
 
 ## Thanks
 
@@ -262,4 +262,4 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
 
 ## Star History
 
-![](https://api.star-history.com/svg?repos=daodao97/chatmcp&type=Date)
+![](https://api.star-history.com/svg?repos=Tencon99/doudouai&type=Date)

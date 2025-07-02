@@ -12,12 +12,11 @@
 
 | 平台                                                       | 链接                                                          | 说明                                                           |
 |-----------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
-| macOS                                                     | [Release](https://github.com/daodao97/chatmcp/releases)       |                                                               |
-| Windows                                                   | [Release](https://github.com/daodao97/chatmcp/releases)       |                                                               |
-| Linux                                                     | [Release](https://github.com/daodao97/chatmcp/releases)       | 需要安装 `libsqlite3-0` 和 `libsqlite3-dev` ¹                |
-| iOS                                                       | [TestFlight](https://testflight.apple.com/join/dCXksFJV)      |                                                               |
-| Android                                                   | [Release](https://github.com/daodao97/chatmcp/releases)       |                                                               |
-| Web                                                       | [GitHub Pages](https://daodao97.github.io/chatmcp)           | 完全在浏览器中运行，使用本地存储保存聊天记录和设置 ²            |
+| macOS                                                     | [Release](https://github.com/Tencon99/doudouai/releases)       |                                                               |
+| Windows                                                   | [Release](https://github.com/Tencon99/doudouai/releases)       |                                                               |
+| Linux                                                     | [Release](https://github.com/Tencon99/doudouai/releases)       | 需要安装 `libsqlite3-0` 和 `libsqlite3-dev` ¹                |
+| Android                                                   | [Release](https://github.com/Tencon99/doudouai/releases)       |                                                               |
+| Web                                                       | [GitHub Pages](https://Tencon99.github.io/doudouai)           | 完全在浏览器中运行，使用本地存储保存聊天记录和设置 ²            |
 
 ¹ 注意：在 Linux 系统上，您需要安装 `libsqlite3-0` 和 `libsqlite3-dev`，因为依赖包需要这些库：
 
@@ -138,13 +137,13 @@ flutter run -d chrome --web-port 8080
 flutter build web
 
 # 构建并指定基础路径（用于部署到子目录）
-flutter build web --base-href /chatmcp/
+flutter build web --base-href /doudouai/
 ```
 
 #### 部署到GitHub Pages
 ```bash
 # 1. 构建Web版本
-flutter build web --base-href /chatmcp/
+flutter build web --base-href /doudouai/
 
 # 2. 将build/web目录的内容推送到gh-pages分支
 # 或者使用GitHub Actions自动部署
@@ -188,7 +187,7 @@ flutter build appbundle --release
 - [ ] 更好的 UI 设计
 - [x] 深色/浅色主题
 
-欢迎提交任何功能建议，您可以在 [Issues](https://github.com/daodao97/chatmcp/issues) 中提交您的想法或错误报告。
+欢迎提交任何功能建议，您可以在 [Issues](https://github.com/Tencon99/doudouai/issues) 中提交您的想法或错误报告。
 
 ## MCP 服务器市场
 
@@ -230,4 +229,4 @@ flutter build appbundle --release
 
 ## Star History
 
-![](https://api.star-history.com/svg?repos=daodao97/chatmcp&type=Date)
+![](https://api.star-history.com/svg?repos=Tencon99/doudouai&type=Date)

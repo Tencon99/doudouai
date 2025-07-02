@@ -10,9 +10,9 @@ Platformlar Arası <code>MacOS | Windows | Linux | iOS | Android | Web</code> Ya
 
 ## Kurulum
 
-| macOS                                                 | Windows                                               | Linux                                                   | iOS                                                      | Android                                               | Web                                                    |
-|-------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|
-| [İndir](https://github.com/daodao97/chatmcp/releases) | [İndir](https://github.com/daodao97/chatmcp/releases) | [İndir](https://github.com/daodao97/chatmcp/releases) ¹ | [TestFlight](https://testflight.apple.com/join/dCXksFJV) | [İndir](https://github.com/daodao97/chatmcp/releases) | [GitHub Pages](https://daodao97.github.io/chatmcp) ² |
+| macOS                                                 | Windows                                               | Linux                                                   |Android                                               | Web                                                    |
+|-------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|
+| [İndir](https://github.com/Tencon99/doudouai/releases) | [İndir](https://github.com/Tencon99/doudouai/releases) | [İndir](https://github.com/Tencon99/doudouai/releases) ¹  | [İndir](https://github.com/Tencon99/doudouai/releases) | [GitHub Pages](https://Tencon99.github.io/doudouai) ² |
 
 ¹ Not: Linux'ta, `sqflite_common_ffi` paketinin çalışması için `libsqlite3-0` ve `libsqlite3-dev` kütüphanelerini kurmanız
 gerekir: https://pub.dev/packages/sqflite_common_ffi
@@ -26,7 +26,7 @@ sudo apt-get install libsqlite3-0 libsqlite3-dev
 ## Dokümantasyon
 
 Ayrıca, chatmcp hakkında daha fazla bilgi edinmek için DeepWiki'yi kullanabilirsiniz.
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/daodao97/chatmcp)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Tencon99/doudouai)
 DeepWiki, herhangi bir herkese açık GitHub deposunu tam etkileşimli, kolay anlaşılır bir wiki'ye dönüştüren yapay zeka destekli bir platformdur.
 Kodları, dokümantasyonu ve yapılandırma dosyalarını analiz ederek net açıklamalar ve etkileşimli diyagramlar oluşturur, hatta yapay zeka ile
 gerçek zamanlı olarak soru-cevap yapmanıza olanak tanır.
