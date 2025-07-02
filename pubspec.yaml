@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.0.2
+version: 0.0.3
 
 environment:
   sdk: ^3.5.4
@@ -75,17 +75,17 @@ dependencies:
   bot_toast: ^4.1.3
   sqflite_common_ffi_web: ^1.0.0
   # 网络服务相关
-  shelf: ^1.4.1  # HTTP服务器
+  shelf: ^1.4.1  # HTTP服务�?
   shelf_router: ^1.1.4  # 路由
   shelf_cors_headers: ^0.1.5  # CORS支持
   network_info_plus: ^5.0.0  # 获取网络信息
-  qr_flutter: ^4.1.0  # 二维码生成
-  # qr_code_scanner: ^1.0.1  # 二维码扫描 - 已弃用，有namespace问题
-  mobile_scanner: ^7.0.1  # 替代qr_code_scanner的现代二维码扫描器
-  dio: ^5.4.0  # HTTP客户端
+  qr_flutter: ^4.1.0  # 二维码生�?
+  # qr_code_scanner: ^1.0.1  # 二维码扫�?- 已弃用，有namespace问题
+  mobile_scanner: ^7.0.1  # 替代qr_code_scanner的现代二维码扫描�?
+  dio: ^5.4.0  # HTTP客户�?
   
   # 语音功能相关
-  speech_to_text: ^7.0.0  # 语音转文字（Android、iOS、macOS、Web）
+  speech_to_text: ^7.0.0  # 语音转文字（Android、iOS、macOS、Web�?
   permission_handler: ^11.3.1  # 权限管理
   record: ^6.0.0  # 录音功能
   lottie: ^3.3.1
@@ -136,7 +136,7 @@ flutter_launcher_icons:
   windows:
     generate: true
     image_path: "assets/logo.png"
-    icon_size: 48 # 可选，默认为48
+    icon_size: 48 # 可选，默认�?8
   macos:
     generate: true
     image_path: "assets/logo.png"
