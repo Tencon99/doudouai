@@ -1,4 +1,4 @@
-name: doudouai
+﻿name: doudouai
 description: "AI Chat with Mcp"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -16,7 +16,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.0.3
+version: 0.0.4
 
 environment:
   sdk: ^3.5.4
@@ -74,20 +74,20 @@ dependencies:
   package_info_plus: ^8.3.0
   bot_toast: ^4.1.3
   sqflite_common_ffi_web: ^1.0.0
-  # 网络服务相关
-  shelf: ^1.4.1  # HTTP服务�?
-  shelf_router: ^1.1.4  # 路由
-  shelf_cors_headers: ^0.1.5  # CORS支持
-  network_info_plus: ^5.0.0  # 获取网络信息
-  qr_flutter: ^4.1.0  # 二维码生�?
-  # qr_code_scanner: ^1.0.1  # 二维码扫�?- 已弃用，有namespace问题
-  mobile_scanner: ^7.0.1  # 替代qr_code_scanner的现代二维码扫描�?
-  dio: ^5.4.0  # HTTP客户�?
+  # 缃戠粶鏈嶅姟鐩稿叧
+  shelf: ^1.4.1  # HTTP鏈嶅姟鍣?
+  shelf_router: ^1.1.4  # 璺敱
+  shelf_cors_headers: ^0.1.5  # CORS鏀寔
+  network_info_plus: ^5.0.0  # 鑾峰彇缃戠粶淇℃伅
+  qr_flutter: ^4.1.0  # 浜岀淮鐮佺敓鎴?
+  # qr_code_scanner: ^1.0.1  # 浜岀淮鐮佹壂鎻?- 宸插純鐢紝鏈塶amespace闂
+  mobile_scanner: ^7.0.1  # 鏇夸唬qr_code_scanner鐨勭幇浠ｄ簩缁寸爜鎵弿鍣?
+  dio: ^5.4.0  # HTTP瀹㈡埛绔?
   
-  # 语音功能相关
-  speech_to_text: ^7.0.0  # 语音转文字（Android、iOS、macOS、Web�?
-  permission_handler: ^11.3.1  # 权限管理
-  record: ^6.0.0  # 录音功能
+  # 璇煶鍔熻兘鐩稿叧
+  speech_to_text: ^7.0.0  # 璇煶杞枃瀛楋紙Android銆乮OS銆乵acOS銆乄eb锛?
+  permission_handler: ^11.3.1  # 鏉冮檺绠＄悊
+  record: ^6.0.0  # 褰曢煶鍔熻兘
   lottie: ^3.3.1
 
 dev_dependencies:
@@ -127,7 +127,7 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/logo.png"
-  min_sdk_android: 21 # Android最低SDK版本
+  min_sdk_android: 21 # Android鏈€浣嶴DK鐗堟湰
   web:
     generate: true
     image_path: "assets/logo.png"
@@ -136,7 +136,7 @@ flutter_launcher_icons:
   windows:
     generate: true
     image_path: "assets/logo.png"
-    icon_size: 48 # 可选，默认�?8
+    icon_size: 48 # 鍙€夛紝榛樿涓?8
   macos:
     generate: true
     image_path: "assets/logo.png"
