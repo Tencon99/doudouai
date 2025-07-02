@@ -16,7 +16,7 @@ class AppInfo extends StatelessWidget {
   const AppInfo({
     super.key,
     this.appWebsite,
-    this.githubUrl = 'https://github.com/tencon99/doudouai',
+    this.githubUrl = 'https://github.com/Tencon99/doudouai',
     this.licenseInfo = 'Apache License 2.0',
   });
 
